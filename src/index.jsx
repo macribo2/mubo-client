@@ -8,6 +8,9 @@ class MeinFlixApp extends React.Component {
 	  return (
 		<div className="meinFlix">
 		  <div>Space Movies 2021!</div>
+		  <div>
+      <input placeholder="Search here"/>
+    </div>
 		  <MainView />
 		</div>
 	  );
